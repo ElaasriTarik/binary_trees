@@ -3,7 +3,7 @@
 /**
  *binary_tree_size - function inorder
  *@tree: tree
- *@func: cunt to print the value
+ *Return: size
  */
 
 size_t binary_tree_size(const binary_tree_t *tree)
