@@ -11,7 +11,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 	binary_tree_t *sib_left;
 	binary_tree_t *sib_right;
 
-	if (node != NULL || node->parent != NULL)
+	if (node != NULL && node->parent != NULL)
 	{
 		sib_left = node->parent->left;
 		sib_right = node->parent->right;
