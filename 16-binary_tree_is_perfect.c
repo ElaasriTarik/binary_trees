@@ -9,20 +9,20 @@
 
 int _pow(int x, int y)
 {
-	int result = 1;
+	int res = 1;
 
 	while (y > 0)
 	{
-		result *= x;
+		res *= x;
 		y--;
 	}
 
-	return (result);
+	return (res);
 }
 
 /**
  * binary_tree_height - Calculate the height of a binary tree
- * @tree: Pointer to the root node of the tree
+ * @tree: the root node of the tree
  * Return: Height of the tree
  */
 
